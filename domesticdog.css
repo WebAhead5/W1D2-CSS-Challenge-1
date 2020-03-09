@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    text-align: left;
+    font-size: 18px;
+
+}
+
+div.wholeWhite {
+    background-color: white;
+    max-height: 729px;
+    max-width: 410px;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 103.5px;
+    padding: 2px 0 20px;
+}
+
+div.wholeAqua {
+    background-color: rgb(1, 219, 219);
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 5px 5px #88888860;
+    padding: 15px;
+    margin: auto;
+}
+
+div.textdiv {
+    background-color: rgb(205, 252, 252);
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+}
+
+p {
+    text-align: left;
+    margin: 10px 0;
+    padding: 0px 10px;
+    font-size: 10px;
+}
+
+.bolddiv > p {
+    text-align: left;
+    margin: 0;
+    font-size: 10px;    
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    object-fit: cover;
+
+}
+
+div.image {
+    text-align: center;
+}
